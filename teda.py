@@ -3,7 +3,7 @@ import pandas as pd
 
 
 class TEDADetect:
-    """Class used to detect outliers on the data"""
+    """Class used to detect outliers on the dataset"""
     # ------------------------------
     # CONSTRUCTOR
     #-------------------------------

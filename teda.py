@@ -87,7 +87,7 @@ class TEDADetect:
             self.mean = x
             self.variance = 0
         else:
-            # calculte the new mean
+            # calcultate the new mean
             self.mean = self.__calcMean(x)
             # calculate the new variance
             self.variance = self.__calcVariance(x)
@@ -100,7 +100,7 @@ class TEDADetect:
             # check if the point is an outlier
             isOutlier = norm_eccentricity > threshold
 
-            # if the point is an outlier, add it to the outlier list
+            # if the sample is an outlier, add it to the outlier list
             if (isOutlier):
                 is_outlier = 1
 

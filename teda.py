@@ -37,7 +37,6 @@ class TEDADetect:
         # add is_outlier column to the dataframe
         df['is_outlier'] = 0
         
-        
         # loop through the rows in df
         for index, row in df.iterrows():
             # build the X sample numpy array
@@ -69,7 +68,7 @@ class TEDADetect:
             self.k = self.k + 1
             
         print('Outlier value counts')
-        print(df.is_outlier.value_counts())
+        print(df["is_outlier"].value_counts())
 
     def run(self, features, m):
         "Run the algorithm online"""

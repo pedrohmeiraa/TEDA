@@ -7,11 +7,8 @@
 
 - [2] :books: **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Cassiano, J.; Costa, D.G. *A TinyML Soft-Sensor Approach for Low-Cost Detection and Monitoring of Vehicular Emissions*. Sensors 2022, 22, 3838. doi: 10.3390/s22103838 [[Link]](https://www.mdpi.com/1424-8220/22/10/3838)
 
-**Code 01**: TEDA algorithm [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/ppgeecmachinelearning/blob/main/lessons/week_01/outline.pdf)
+**Code 01**: TEDA algorithm [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/pedrohmeiraa/TEDA/blob/f498fade1b038fc22f8048d2a54fea2721b22483/1%20-%20TEDA%20Algorithm.pdf)
 - TEDA, Introduction, Advantages x Disavantages, Applications, and Algorithm demonstration.
 
-**Code 02**: :construction: *[LOADING]* :construction: TEDA analysis [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/ppgeecmachinelearning/blob/main/lessons/week_01/outline.pdf)
-- Threshold analysis, data applications.
-
-**Code 03**: :construction: *[LOADING]* :construction: AutoCloud and TEDARegressor algorithms [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/ppgeecmachinelearning/blob/main/lessons/week_01/outline.pdf)
+**Code 02**: :construction: *[LOADING]* :construction: AutoCloud and TEDARegressor algorithms.
 - AutoCloud, TEDA Regressor, differences, data applications.

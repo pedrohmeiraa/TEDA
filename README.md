@@ -10,5 +10,3 @@
 **Code 01**: TEDA algorithm [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/pedrohmeiraa/TEDA/blob/f498fade1b038fc22f8048d2a54fea2721b22483/1%20-%20TEDA%20Algorithm.pdf)
 - TEDA, Introduction, Advantages x Disavantages, Applications, and Algorithm demonstration.
 
-**Code 02**: :construction: *[LOADING]* :construction: AutoCloud and TEDARegressor algorithms.
-- AutoCloud, TEDA Regressor, differences, data applications.

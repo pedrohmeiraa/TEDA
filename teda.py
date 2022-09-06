@@ -67,8 +67,8 @@ class TEDADetect:
             # Update the timestamp
             self.k = self.k + 1
             
-        print('Outlier value counts')
-        print(df["is_outlier"].value_counts())
+        #print('Outlier value counts')
+        #print(df["is_outlier"].value_counts())
 
     def run(self, features, m):
         "Run the algorithm online"""

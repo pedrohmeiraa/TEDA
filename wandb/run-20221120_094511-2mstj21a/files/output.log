@@ -1,0 +1,4 @@
+
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: d8gxd2c4
+Sweep URL: https://wandb.ai/embarca-ai/TEDARegressor/sweeps/d8gxd2c4

@@ -1,0 +1,246 @@
+2022-11-20 09:01:23,742 INFO    StreamThr :5868 [internal.py:wandb_internal():88] W&B internal server running at pid: 5868, started at: 2022-11-20 09:01:23.734524
+2022-11-20 09:01:23,742 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: status
+2022-11-20 09:01:23,742 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: status
+2022-11-20 09:01:23,750 DEBUG   SenderThread:5868 [sender.py:send():303] send: header
+2022-11-20 09:01:23,750 INFO    WriterThread:5868 [datastore.py:open_for_write():75] open: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\run-1zwprtpk.wandb
+2022-11-20 09:01:23,918 DEBUG   SenderThread:5868 [sender.py:send():303] send: run
+2022-11-20 09:01:25,172 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: check_version
+2022-11-20 09:01:25,188 INFO    SenderThread:5868 [dir_watcher.py:__init__():216] watching files in: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files
+2022-11-20 09:01:25,188 INFO    SenderThread:5868 [sender.py:_start_run_threads():928] run started: 1zwprtpk with start time 1668945683.72653
+2022-11-20 09:01:25,188 DEBUG   SenderThread:5868 [sender.py:send():303] send: summary
+2022-11-20 09:01:25,188 INFO    SenderThread:5868 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:01:25,188 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: check_version
+2022-11-20 09:01:25,406 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: run_start
+2022-11-20 09:01:25,422 DEBUG   HandlerThread:5868 [meta.py:__init__():34] meta init
+2022-11-20 09:01:25,422 DEBUG   HandlerThread:5868 [meta.py:__init__():49] meta init done
+2022-11-20 09:01:25,422 DEBUG   HandlerThread:5868 [meta.py:probe():215] probe
+2022-11-20 09:01:25,430 DEBUG   HandlerThread:5868 [meta.py:_setup_git():205] setup git
+2022-11-20 09:01:25,590 DEBUG   HandlerThread:5868 [meta.py:_setup_git():212] setup git done
+2022-11-20 09:01:25,590 DEBUG   HandlerThread:5868 [meta.py:_save_pip():53] save pip
+2022-11-20 09:01:25,590 DEBUG   HandlerThread:5868 [meta.py:_save_pip():67] save pip done
+2022-11-20 09:01:25,590 DEBUG   HandlerThread:5868 [meta.py:_save_conda():74] save conda
+2022-11-20 09:01:26,197 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\requirements.txt
+2022-11-20 09:01:26,197 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\wandb-summary.json
+2022-11-20 09:01:26,197 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\conda-environment.yaml
+2022-11-20 09:01:45,052 DEBUG   HandlerThread:5868 [meta.py:_save_conda():84] save conda done
+2022-11-20 09:01:45,052 DEBUG   HandlerThread:5868 [meta.py:probe():253] probe done
+2022-11-20 09:01:45,350 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:01:45,350 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:01:45,350 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: pause
+2022-11-20 09:01:45,350 INFO    HandlerThread:5868 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-20 09:01:45,350 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\conda-environment.yaml
+2022-11-20 09:01:45,350 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\wandb-metadata.json
+2022-11-20 09:01:45,753 DEBUG   SenderThread:5868 [sender.py:send():303] send: telemetry
+2022-11-20 09:01:45,753 DEBUG   SenderThread:5868 [sender.py:send():303] send: files
+2022-11-20 09:01:45,753 INFO    SenderThread:5868 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-20 09:01:45,753 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:01:46,877 INFO    Thread-23 :5868 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\AppData\Local\Temp\tmpq_waa5rbwandb\22kde61g-wandb-metadata.json
+2022-11-20 09:01:50,439 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:01:50,439 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:01:54,426 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\config.yaml
+2022-11-20 09:02:03,987 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: resume
+2022-11-20 09:02:03,987 INFO    HandlerThread:5868 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-11-20 09:02:04,775 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: log_artifact
+2022-11-20 09:02:04,775 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: log_artifact
+2022-11-20 09:02:04,775 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: pause
+2022-11-20 09:02:04,775 INFO    HandlerThread:5868 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-20 09:02:05,821 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:02:07,692 INFO    Thread-26 :5868 [upload_job.py:push():101] Uploaded file C:\Users\Samsung\.cache\wandb\artifacts\obj\md5\a8\b914a489b4f9fbe8ed2c336a046d1e
+2022-11-20 09:02:09,276 INFO    SenderThread:5868 [sender.py:send_request_log_artifact():1222] logged artifact CTE_10days - {'id': 'QXJ0aWZhY3Q6Mjg0MjQwOTQx', 'digest': 'ec24b817d970d59920881e1b362f55e3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ1NzI2NTEw', 'latestArtifact': None}, 'version': 'latest'}
+2022-11-20 09:02:09,276 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:02:09,276 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:02:24,702 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:02:24,702 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:02:31,329 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: resume
+2022-11-20 09:02:31,329 INFO    HandlerThread:5868 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-11-20 09:02:31,337 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: pause
+2022-11-20 09:02:31,337 INFO    HandlerThread:5868 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-20 09:02:31,449 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:02:40,111 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:02:40,111 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:02:55,504 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:02:55,504 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:03:10,946 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:03:10,946 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:03:26,340 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:03:26,340 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:03:31,211 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: resume
+2022-11-20 09:03:31,211 INFO    HandlerThread:5868 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-11-20 09:03:31,227 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: pause
+2022-11-20 09:03:31,227 INFO    HandlerThread:5868 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-20 09:03:31,331 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:03:41,926 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:03:41,926 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:04:01,933 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:04:01,933 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:04:09,899 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: resume
+2022-11-20 09:04:09,899 INFO    HandlerThread:5868 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-11-20 09:04:09,907 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: pause
+2022-11-20 09:04:09,915 INFO    HandlerThread:5868 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-20 09:04:10,027 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:04:17,345 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:04:17,345 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:04:32,800 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:04:32,800 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:04:46,853 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: resume
+2022-11-20 09:04:46,853 INFO    HandlerThread:5868 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-11-20 09:04:47,428 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: pause
+2022-11-20 09:04:47,428 INFO    HandlerThread:5868 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-20 09:04:47,532 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:04:47,844 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\output.log
+2022-11-20 09:04:48,237 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:04:48,237 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:04:49,858 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\output.log
+2022-11-20 09:05:03,623 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:05:03,623 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:05:19,048 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:05:19,048 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:05:34,439 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:05:34,439 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:05:49,830 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:05:49,830 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:06:05,231 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:06:05,231 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:06:20,615 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:06:20,615 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:06:36,030 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:06:36,030 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:06:51,540 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:06:51,540 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:07:06,935 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:07:06,935 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:07:22,532 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:07:22,532 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:07:38,023 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:07:38,023 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:07:53,427 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:07:53,427 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:08:08,837 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:08:08,837 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:08:24,228 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:08:24,228 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:08:39,611 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:08:39,611 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:08:55,123 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:08:55,123 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:09:10,514 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:09:10,514 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:09:25,906 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:09:25,906 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:09:29,090 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: resume
+2022-11-20 09:09:29,090 INFO    HandlerThread:5868 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-11-20 09:09:29,106 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: pause
+2022-11-20 09:09:29,106 INFO    HandlerThread:5868 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-20 09:09:29,218 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:09:31,688 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: resume
+2022-11-20 09:09:31,688 INFO    HandlerThread:5868 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-11-20 09:09:32,613 DEBUG   SenderThread:5868 [sender.py:send():303] send: exit
+2022-11-20 09:09:32,613 INFO    SenderThread:5868 [sender.py:send_exit():442] handling exit code: 0
+2022-11-20 09:09:32,613 INFO    SenderThread:5868 [sender.py:send_exit():444] handling runtime: 22
+2022-11-20 09:09:32,628 INFO    SenderThread:5868 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:09:32,628 INFO    SenderThread:5868 [sender.py:send_exit():450] send defer
+2022-11-20 09:09:32,628 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:32,628 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 0
+2022-11-20 09:09:32,628 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:32,628 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-20 09:09:32,628 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 1
+2022-11-20 09:09:32,628 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:32,628 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 1
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 2
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send():303] send: stats
+2022-11-20 09:09:32,691 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:32,691 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 2
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 3
+2022-11-20 09:09:32,691 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:32,691 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 3
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 4
+2022-11-20 09:09:32,691 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:32,691 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 4
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send():303] send: summary
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 5
+2022-11-20 09:09:32,691 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:32,691 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 5
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 6
+2022-11-20 09:09:32,691 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:32,691 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 6
+2022-11-20 09:09:32,691 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:32,691 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-20 09:09:32,991 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\wandb-summary.json
+2022-11-20 09:09:33,620 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-20 09:09:34,005 INFO    Thread-17 :5868 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\output.log
+2022-11-20 09:09:35,716 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 7
+2022-11-20 09:09:35,716 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: poll_exit
+2022-11-20 09:09:35,716 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:35,716 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 7
+2022-11-20 09:09:35,716 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:35,716 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-20 09:09:35,716 INFO    SenderThread:5868 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\output.log
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:finish():392] scan: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\conda-environment.yaml conda-environment.yaml
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\config.yaml config.yaml
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\output.log output.log
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\requirements.txt requirements.txt
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\wandb-metadata.json wandb-metadata.json
+2022-11-20 09:09:36,022 INFO    SenderThread:5868 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\wandb-summary.json wandb-summary.json
+2022-11-20 09:09:36,038 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 8
+2022-11-20 09:09:36,038 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:36,038 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 8
+2022-11-20 09:09:36,038 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:36,038 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-20 09:09:36,038 INFO    SenderThread:5868 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-20 09:09:37,070 INFO    Thread-33 :5868 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\conda-environment.yaml
+2022-11-20 09:09:37,070 INFO    Thread-37 :5868 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\wandb-summary.json
+2022-11-20 09:09:37,085 INFO    Thread-36 :5868 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\requirements.txt
+2022-11-20 09:09:37,101 INFO    Thread-35 :5868 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\output.log
+2022-11-20 09:09:37,132 INFO    Thread-34 :5868 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\files\config.yaml
+2022-11-20 09:09:37,335 INFO    Thread-16 :5868 [sender.py:transition_state():463] send defer: 9
+2022-11-20 09:09:37,335 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:37,335 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 9
+2022-11-20 09:09:37,335 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:37,335 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-20 09:09:37,335 INFO    SenderThread:5868 [file_pusher.py:join():173] waiting for file pusher
+2022-11-20 09:09:37,335 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 10
+2022-11-20 09:09:37,335 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:37,335 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 10
+2022-11-20 09:09:37,335 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:37,335 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-20 09:09:38,054 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 11
+2022-11-20 09:09:38,054 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:38,054 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 11
+2022-11-20 09:09:38,054 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:38,054 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-20 09:09:38,054 INFO    SenderThread:5868 [sender.py:transition_state():463] send defer: 12
+2022-11-20 09:09:38,054 DEBUG   SenderThread:5868 [sender.py:send():303] send: final
+2022-11-20 09:09:38,054 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:09:38,054 INFO    HandlerThread:5868 [handler.py:handle_request_defer():161] handle defer: 12
+2022-11-20 09:09:38,054 DEBUG   SenderThread:5868 [sender.py:send():303] send: footer
+2022-11-20 09:09:38,054 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:09:38,054 INFO    SenderThread:5868 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-20 09:09:38,054 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-20 09:09:38,054 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: poll_exit
+2022-11-20 09:09:38,054 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: server_info
+2022-11-20 09:09:38,054 DEBUG   SenderThread:5868 [sender.py:send_request():317] send_request: server_info
+2022-11-20 09:09:38,054 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: get_summary
+2022-11-20 09:09:38,054 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: sampled_history
+2022-11-20 09:09:38,538 INFO    MainThread:5868 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-20 09:09:38,538 INFO    MainThread:5868 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-20 09:09:38,538 INFO    MainThread:5868 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-20 09:09:38,538 DEBUG   HandlerThread:5868 [handler.py:handle_request():138] handle_request: shutdown
+2022-11-20 09:09:38,538 INFO    HandlerThread:5868 [handler.py:finish():814] shutting down handler
+2022-11-20 09:09:39,069 INFO    WriterThread:5868 [datastore.py:close():279] close: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\run-1zwprtpk.wandb
+2022-11-20 09:09:39,553 INFO    SenderThread:5868 [sender.py:finish():1331] shutting down sender
+2022-11-20 09:09:39,553 INFO    SenderThread:5868 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-20 09:09:39,553 INFO    SenderThread:5868 [file_pusher.py:join():173] waiting for file pusher
+2022-11-20 09:09:39,553 INFO    MainThread:5868 [internal.py:handle_exit():78] Internal process exited

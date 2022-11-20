@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-11-20T12:47:20.769119",
+    "startedAt": "2022-11-20T12:47:19.627087",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Desktop/Pedro/UFRN/Portfolio/Code Python 01/TEDA Algorithm #01.ipynb",
+    "root": "C:/Users/Samsung/Desktop/Pedro/UFRN/Portfolio/Code Python 01",
+    "git": {
+        "remote": "https://github.com/pedrohmeiraa/TEDA.git",
+        "commit": "f4afbb587c026f63eca560f5a27aaf88cf24fa5d"
+    },
+    "email": "pedro.andrade@cear.ufpb.br",
+    "host": "DESKTOP-5NQASSV",
+    "username": "Samsung",
+    "executable": "C:\\Users\\Samsung\\anaconda3\\python.exe"
+}

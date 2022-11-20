@@ -1,0 +1,147 @@
+2022-11-20 09:52:53,045 INFO    StreamThr :3792 [internal.py:wandb_internal():88] W&B internal server running at pid: 3792, started at: 2022-11-20 09:52:53.045120
+2022-11-20 09:52:53,045 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: status
+2022-11-20 09:52:53,045 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: status
+2022-11-20 09:52:53,060 INFO    WriterThread:3792 [datastore.py:open_for_write():75] open: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\run-7o6gbs2t.wandb
+2022-11-20 09:52:53,060 DEBUG   SenderThread:3792 [sender.py:send():303] send: header
+2022-11-20 09:52:53,123 DEBUG   SenderThread:3792 [sender.py:send():303] send: run
+2022-11-20 09:52:53,905 INFO    SenderThread:3792 [dir_watcher.py:__init__():216] watching files in: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files
+2022-11-20 09:52:53,905 INFO    SenderThread:3792 [sender.py:_start_run_threads():928] run started: 7o6gbs2t with start time 1668948773.04512
+2022-11-20 09:52:53,905 DEBUG   SenderThread:3792 [sender.py:send():303] send: summary
+2022-11-20 09:52:53,905 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: check_version
+2022-11-20 09:52:53,905 INFO    SenderThread:3792 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:52:53,905 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: check_version
+2022-11-20 09:52:54,040 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: run_start
+2022-11-20 09:52:54,040 DEBUG   HandlerThread:3792 [meta.py:__init__():34] meta init
+2022-11-20 09:52:54,055 DEBUG   HandlerThread:3792 [meta.py:__init__():49] meta init done
+2022-11-20 09:52:54,055 DEBUG   HandlerThread:3792 [meta.py:probe():215] probe
+2022-11-20 09:52:54,055 DEBUG   HandlerThread:3792 [meta.py:_setup_git():205] setup git
+2022-11-20 09:52:54,166 DEBUG   HandlerThread:3792 [meta.py:_setup_git():212] setup git done
+2022-11-20 09:52:54,166 DEBUG   HandlerThread:3792 [meta.py:_save_pip():53] save pip
+2022-11-20 09:52:54,166 DEBUG   HandlerThread:3792 [meta.py:_save_pip():67] save pip done
+2022-11-20 09:52:54,166 DEBUG   HandlerThread:3792 [meta.py:_save_conda():74] save conda
+2022-11-20 09:52:54,924 INFO    Thread-17 :3792 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\requirements.txt
+2022-11-20 09:52:54,924 INFO    Thread-17 :3792 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\conda-environment.yaml
+2022-11-20 09:52:54,924 INFO    Thread-17 :3792 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\wandb-summary.json
+2022-11-20 09:53:11,843 DEBUG   HandlerThread:3792 [meta.py:_save_conda():84] save conda done
+2022-11-20 09:53:11,843 DEBUG   HandlerThread:3792 [meta.py:probe():253] probe done
+2022-11-20 09:53:11,961 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-20 09:53:11,961 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: partial_history
+2022-11-20 09:53:11,961 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-20 09:53:11,961 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: stop_status
+2022-11-20 09:53:11,977 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: keepalive
+2022-11-20 09:53:11,978 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: keepalive
+2022-11-20 09:53:12,018 INFO    Thread-17 :3792 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\conda-environment.yaml
+2022-11-20 09:53:12,018 INFO    Thread-17 :3792 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\wandb-metadata.json
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send():303] send: telemetry
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send():303] send: summary
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send():303] send: history
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send():303] send: summary
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send():303] send: telemetry
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send():303] send: exit
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:send_exit():442] handling exit code: 0
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:send_exit():444] handling runtime: 17
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:send_exit():450] send defer
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: poll_exit
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send():303] send: files
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-20 09:53:12,343 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,343 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 0
+2022-11-20 09:53:12,343 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-20 09:53:12,343 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 1
+2022-11-20 09:53:12,343 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,343 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 1
+2022-11-20 09:53:12,376 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 2
+2022-11-20 09:53:12,383 DEBUG   SenderThread:3792 [sender.py:send():303] send: stats
+2022-11-20 09:53:12,383 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,383 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 2
+2022-11-20 09:53:12,383 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 3
+2022-11-20 09:53:12,383 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,383 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 3
+2022-11-20 09:53:12,383 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 4
+2022-11-20 09:53:12,383 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,383 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 4
+2022-11-20 09:53:12,383 DEBUG   SenderThread:3792 [sender.py:send():303] send: summary
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-20 09:53:12,383 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 5
+2022-11-20 09:53:12,383 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,383 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 5
+2022-11-20 09:53:12,383 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,383 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-20 09:53:12,799 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 6
+2022-11-20 09:53:12,799 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,799 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 6
+2022-11-20 09:53:12,799 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,799 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-20 09:53:12,799 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 7
+2022-11-20 09:53:12,799 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:12,799 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 7
+2022-11-20 09:53:12,799 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:12,799 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-20 09:53:12,799 INFO    SenderThread:3792 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\config.yaml
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\wandb-summary.json
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:finish():392] scan: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\conda-environment.yaml conda-environment.yaml
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\config.yaml config.yaml
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\requirements.txt requirements.txt
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\wandb-metadata.json wandb-metadata.json
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [dir_watcher.py:finish():406] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\wandb-summary.json wandb-summary.json
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 8
+2022-11-20 09:53:13,031 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:13,031 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 8
+2022-11-20 09:53:13,031 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-20 09:53:13,031 INFO    SenderThread:3792 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-20 09:53:13,332 INFO    Thread-23 :3792 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\AppData\Local\Temp\tmp4fj1smkxwandb\323obo3g-wandb-metadata.json
+2022-11-20 09:53:14,046 INFO    Thread-27 :3792 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\wandb-summary.json
+2022-11-20 09:53:14,046 INFO    Thread-25 :3792 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\config.yaml
+2022-11-20 09:53:14,062 INFO    Thread-24 :3792 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\conda-environment.yaml
+2022-11-20 09:53:14,077 INFO    Thread-26 :3792 [upload_job.py:push():143] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\files\requirements.txt
+2022-11-20 09:53:14,279 INFO    Thread-16 :3792 [sender.py:transition_state():463] send defer: 9
+2022-11-20 09:53:14,279 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:14,279 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 9
+2022-11-20 09:53:14,279 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:14,279 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-20 09:53:14,279 INFO    SenderThread:3792 [file_pusher.py:join():173] waiting for file pusher
+2022-11-20 09:53:14,279 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 10
+2022-11-20 09:53:14,279 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:14,279 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 10
+2022-11-20 09:53:14,279 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:14,279 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-20 09:53:14,971 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 11
+2022-11-20 09:53:14,971 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:14,971 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 11
+2022-11-20 09:53:14,971 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:14,971 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-20 09:53:14,971 INFO    SenderThread:3792 [sender.py:transition_state():463] send defer: 12
+2022-11-20 09:53:14,971 DEBUG   SenderThread:3792 [sender.py:send():303] send: final
+2022-11-20 09:53:14,971 DEBUG   SenderThread:3792 [sender.py:send():303] send: footer
+2022-11-20 09:53:14,971 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: defer
+2022-11-20 09:53:14,971 INFO    HandlerThread:3792 [handler.py:handle_request_defer():161] handle defer: 12
+2022-11-20 09:53:14,971 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: defer
+2022-11-20 09:53:14,971 INFO    SenderThread:3792 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-20 09:53:14,987 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-20 09:53:14,987 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: poll_exit
+2022-11-20 09:53:14,987 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: server_info
+2022-11-20 09:53:14,987 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: get_summary
+2022-11-20 09:53:14,987 DEBUG   SenderThread:3792 [sender.py:send_request():317] send_request: server_info
+2022-11-20 09:53:14,987 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: sampled_history
+2022-11-20 09:53:15,716 DEBUG   HandlerThread:3792 [handler.py:handle_request():138] handle_request: shutdown
+2022-11-20 09:53:15,716 INFO    HandlerThread:3792 [handler.py:finish():814] shutting down handler
+2022-11-20 09:53:15,974 INFO    WriterThread:3792 [datastore.py:close():279] close: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_095253-7o6gbs2t\run-7o6gbs2t.wandb
+2022-11-20 09:53:16,728 INFO    SenderThread:3792 [sender.py:finish():1331] shutting down sender
+2022-11-20 09:53:16,729 INFO    SenderThread:3792 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-20 09:53:16,729 INFO    SenderThread:3792 [file_pusher.py:join():173] waiting for file pusher
+2022-11-20 09:53:26,754 INFO    MainThread:3792 [internal.py:handle_exit():78] Internal process exited

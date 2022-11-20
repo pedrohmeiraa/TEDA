@@ -1,0 +1,8 @@
+Create sweep with ID: ayvmb1xe
+Sweep URL: https://wandb.ai/embarca-ai/TEDARegressor/sweeps/ayvmb1xe
+              precision    recall  f1-score   support
+           0       0.98      1.00      0.99       923
+           1       1.00      0.51      0.68        37
+    accuracy                           0.98       960
+   macro avg       0.99      0.76      0.83       960
+weighted avg       0.98      0.98      0.98       960

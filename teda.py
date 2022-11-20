@@ -7,11 +7,12 @@ class TEDADetect:
     # ------------------------------
     # CONSTRUCTOR
     #-------------------------------
-    def __init__(self):
+    def __init__(self, threshold):
         # initialize variables
         self.k = 1
         self.variance = 0
         self.mean = 0
+        self.threshold = threshold
 
     # ------------------------------
     # INTERNAL METHODS
@@ -24,16 +25,19 @@ class TEDADetect:
         return ((self.k-1)/self.k)*self.variance + distance_squared*(1/(self.k - 1))
                                      
     def __calcEccentricity(self, x):
-        return (1 / self.k) +  (((self.mean - x).T.dot((self.mean - x))) / (self.k *  self.variance))
+        if (isinstance(x, float)):
+            return (1 / self.k) +  (((self.mean - x)*(self.mean - x)) / (self.k *  self.variance))     
+        else:
+            return (1 / self.k) +  (((self.mean - x).T.dot((self.mean - x))) / (self.k *  self.variance))
+            
+        
     
     # ------------------------------
     # RUN METHODS
     #-------------------------------
-    def run_offline(self, df, features, m):
+    def run_offline(self, df, features):
         """Run the algorithm offline"""
         
-        # the m setted by the user 
-        n = m
         # add is_outlier column to the dataframe
         df['is_outlier'] = 0
         
@@ -55,10 +59,10 @@ class TEDADetect:
                 eccentricity = self.__calcEccentricity(x)
                 norm_eccentricity = eccentricity/2
                 # define the threshold for outlier detection
-                threshold = (n**2 +1)/(2*self.k)
+                threshold_ = (self.threshold**2 +1)/(2*self.k)
                 
                 # check if the point is an outlier
-                isOutlier = norm_eccentricity > threshold
+                isOutlier = norm_eccentricity > threshold_
 
                 # if the point is an outlier, add it to the outlier list
                 if (isOutlier):
@@ -70,14 +74,11 @@ class TEDADetect:
         #print('Outlier value counts')
         #print(df["is_outlier"].value_counts())
 
-    def run(self, features, m):
+    def run(self, x):
         "Run the algorithm online"""
     
-        # the m setted by the user 
-        n = m
-
         # build the X sample numpy array
-        x = np.array(features)
+        #x = np.array(features)
 
         is_outlier = 0
         
@@ -86,7 +87,7 @@ class TEDADetect:
             self.mean = x
             self.variance = 0
         else:
-            # calcultate the new mean
+            # calculate the new mean
             self.mean = self.__calcMean(x)
             # calculate the new variance
             self.variance = self.__calcVariance(x)
@@ -94,10 +95,10 @@ class TEDADetect:
             eccentricity = self.__calcEccentricity(x)
             norm_eccentricity = eccentricity/2
             # define the threshold for outlier detection
-            threshold = (n**2 +1)/(2*self.k)
+            threshold_ = (self.threshold**2 +1)/(2*self.k)
             
             # check if the point is an outlier
-            isOutlier = norm_eccentricity > threshold
+            isOutlier = norm_eccentricity > threshold_
 
             # if the sample is an outlier, add it to the outlier list
             if (isOutlier):

@@ -1,0 +1,81 @@
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_setup.py:_flush():68] Configure stats pid to 10684
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\settings
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\logs\debug.log
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090123-1zwprtpk\logs\debug-internal.log
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000200B54048B0>
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_init.py:init():516] calling init triggers
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_init.py:init():569] starting backend
+2022-11-20 09:01:23,710 INFO    MainThread:10684 [wandb_init.py:init():573] setting up manager
+2022-11-20 09:01:23,718 INFO    MainThread:10684 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-11-20 09:01:23,726 INFO    MainThread:10684 [wandb_init.py:init():580] backend started and connected
+2022-11-20 09:01:23,750 INFO    MainThread:10684 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-11-20 09:01:23,750 INFO    MainThread:10684 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-11-20 09:01:23,750 INFO    MainThread:10684 [wandb_init.py:init():658] updated telemetry
+2022-11-20 09:01:23,909 INFO    MainThread:10684 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-20 09:01:25,172 INFO    MainThread:10684 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-20 09:01:25,390 INFO    MainThread:10684 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-20 09:01:25,390 INFO    MainThread:10684 [wandb_init.py:init():728] starting run threads in backend
+2022-11-20 09:01:30,423 INFO    MainThread:10684 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-20 09:01:30,423 INFO    MainThread:10684 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-20 09:01:30,423 INFO    MainThread:10684 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-20 09:01:30,423 INFO    MainThread:10684 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-20 09:01:30,423 INFO    MainThread:10684 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-20 09:01:30,423 INFO    MainThread:10684 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-20 09:01:30,431 INFO    MainThread:10684 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-20 09:02:03,987 INFO    MainThread:10684 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-20 09:02:04,775 INFO    MainThread:10684 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-20 09:02:04,775 INFO    MainThread:10684 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-20 09:02:31,329 INFO    MainThread:10684 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-20 09:02:31,329 INFO    MainThread:10684 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-20 09:02:31,329 INFO    MainThread:10684 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-20 09:03:31,211 INFO    MainThread:10684 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-20 09:03:31,211 INFO    MainThread:10684 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-20 09:03:31,211 INFO    MainThread:10684 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-20 09:04:09,899 INFO    MainThread:10684 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-20 09:04:09,899 INFO    MainThread:10684 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-20 09:04:09,899 INFO    MainThread:10684 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-20 09:04:46,853 INFO    MainThread:10684 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-20 09:04:47,428 INFO    MainThread:10684 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-20 09:04:47,428 INFO    MainThread:10684 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-20 09:09:29,090 INFO    MainThread:10684 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-20 09:09:29,098 INFO    MainThread:10684 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-20 09:09:29,098 INFO    MainThread:10684 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-20 09:09:31,688 INFO    MainThread:10684 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-20 09:09:31,688 INFO    MainThread:10684 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2022-11-20 09:09:39,553 WARNING MsgRouterThr:10684 [router.py:message_loop():77] message_loop has been closed
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_setup.py:_flush():68] Configure stats pid to 10684
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\settings
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'TEDARegressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\Code Python 01', 'sweep_id': 'jt7v935z', 'run_id': '11csfl7z', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\Code Python 01\\wandb\\sweep-jt7v935z\\config-11csfl7z.yaml'}
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090942-11csfl7z\logs\debug.log
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\Code Python 01\wandb\run-20221120_090942-11csfl7z\logs\debug-internal.log
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_init.py:init():516] calling init triggers
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_init.py:init():519] wandb.init called with sweep_config: {'Threshold': 1.1}
+config: {}
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_init.py:init():569] starting backend
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [wandb_init.py:init():573] setting up manager
+2022-11-20 09:09:42,333 INFO    Thread-23 :10684 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-11-20 09:09:42,348 INFO    Thread-23 :10684 [wandb_init.py:init():580] backend started and connected
+2022-11-20 09:09:42,364 INFO    Thread-23 :10684 [wandb_run.py:_config_callback():1160] config_cb None None {'Threshold': 1.1}
+2022-11-20 09:09:42,364 INFO    Thread-23 :10684 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-11-20 09:09:42,364 INFO    Thread-23 :10684 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-11-20 09:09:42,364 INFO    Thread-23 :10684 [wandb_init.py:init():658] updated telemetry
+2022-11-20 09:09:42,426 INFO    Thread-23 :10684 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-20 09:09:43,225 INFO    Thread-23 :10684 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-20 09:09:43,330 INFO    Thread-23 :10684 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-20 09:09:43,330 INFO    Thread-23 :10684 [wandb_init.py:init():728] starting run threads in backend
+2022-11-20 09:09:48,358 INFO    Thread-23 :10684 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-20 09:09:48,358 INFO    Thread-23 :10684 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-20 09:09:48,358 INFO    Thread-23 :10684 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-20 09:09:48,358 INFO    Thread-23 :10684 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-20 09:09:48,358 INFO    Thread-23 :10684 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-20 09:13:35,175 ERROR   Thread-22 :10684 [internal_api.py:execute():216] 404 response executing GraphQL.
+2022-11-20 09:13:35,175 ERROR   Thread-22 :10684 [internal_api.py:execute():217] {"errors":[{"message":"could not find agent wncuoh6i during agentHeartbeat","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}
